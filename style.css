@@ -4,3 +4,112 @@
 	border: 0;
 	outline: 0;
 }
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	width: 1200px;
+	height: 500px;
+	background: url(images/head-bg.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.wrap{
+	width: 750px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+.logo{
+	color: #fff;
+	font: 24px arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav{
+	display: inline-block;
+	list-style: none;
+	margin-left: 280px;
+	margin-bottom: 160px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li:first-child{
+	color: #646464;
+}
+
+nav li:nth-child(6){
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(images/head-soc-icon-twit.png) no-repeat;
+}
+
+nav li:nth-child(7){
+	width: 10px;
+	height: 18px;
+	vertical-align: middle;
+	background: url(images/head-soc-icon-f.png) no-repeat;
+	padding-bottom: 2px; 
+}
+
+nav li:not(:first-child){
+	display: inline-block;
+	margin-left: 15px;
+}
+
+nav li:hover{
+	cursor: pointer;
+	color: #646464;
+}
+
+.wrap-tagline{
+	
+
+}
+.wrap-tagline p{
+	margin-bottom: 15px;
+}
+
+.wrap-tagline h1{
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+
+.wrap-tagline a{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 15px;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.wrap-tagline a:hover{
+	opacity: 0.7;
+}
+
+.more-info{
+	background: #e92121;
+	margin-right: 20px;
+}
+
+.wrap-tagline a.choose-decor{
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #fff;
+}
