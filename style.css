@@ -8,6 +8,7 @@
 body{
 	width: 1200px;
 	margin: 0 auto;
+	font-family: Arial, sens-serif;
 }
 
 header{
@@ -34,8 +35,8 @@ header{
 nav{
 	display: inline-block;
 	list-style: none;
-	margin-left: 280px;
-	margin-bottom: 160px;
+	margin-left: 200px;
+	vertical-align: middle; 
 }
 
 nav li{
@@ -72,8 +73,7 @@ nav li:hover{
 }
 
 .wrap-tagline{
-	
-
+	margin-top: 120px;
 }
 .wrap-tagline p{
 	margin-bottom: 15px;
@@ -112,4 +112,234 @@ nav li:hover{
 	height: 33px;
 	line-height: 33px;
 	border: 1px solid #fff;
+}
+
+/*--------content---------*/
+
+.wrap-history{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.wrap-history .left{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	margin: 130px 160px 0 150px;
+}
+
+.wrap-history .left h2{
+	font-size: 54px;
+	color: #646464;
+	text-transform: uppercase;
+}
+
+
+.wrap-history .right{
+	display: inline-block;
+	width: 380px;
+	margin: 50px 0 0 0;
+	margin-bottom: 60px;
+}
+
+.wrap-history .right p{
+	margin-bottom: 40px;
+	color: #c1c1c1;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.wrap-history hr{
+	height: 1px;
+	background: #c1c1c1;
+	margin-bottom: 100px;
+}
+
+
+/*---------WORK-----------*/
+
+.work{
+	margin-bottom: 50px;
+}
+
+.work .head-section{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.work .head-section h4{
+	position: relative;
+	font-size: 24px;
+	color: #464646;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.work .head-section h4:after{
+	content: '';
+	position: absolute;
+	background: url(images/bottom-line.png) no-repeat;
+	width: 70px;
+	height: 10px;
+	left: 160px;
+	top: 50px;
+}
+
+.work .head-section p{
+	width: 380px;
+	color: #c1c1c1;
+	text-align: center;
+	line-height: 25px;
+	margin-bottom: 100px;
+}
+
+
+.items{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	margin: 0 0 110px 90px;
+}
+
+.head-item-work{
+	width: 240px;
+	margin-bottom: 15px;
+}
+
+.items p:not(.head-item-work){
+	font-size: 14px;
+	width: 300px;
+	color: #646464;
+}
+
+.item1:before{
+	content: '';
+	background: url(images/icon-item1.png) no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -80px;
+}
+
+.item2:before{
+	content: '';
+	background: url(images/icon-item2.png) no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -80px;
+}
+
+.item3:before{
+	content: '';
+	background: url(images/icon-item3.png) no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -80px;
+}
+
+.item4:before{
+	content: '';
+	background: url(images/icon-item4.png) no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -80px;
+}
+
+.item5:before{
+	content: '';
+	background: url(images/icon-item5.png) no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -80px;
+}
+
+.item6:before{
+	content: '';
+	background: url(images/icon-item6.png) no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -80px;
+}
+
+/*--------------slider--------------*/
+
+.slider{
+	height: 300px;
+	background: #faf9f9;
+	position: relative;
+}
+
+.slider:before{
+	content: '';
+	background: url(images/slider-arrow-left.png) no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	left: 0;
+	top: 140px;
+}
+
+.slider:after{
+	content: '';
+	background: url(images/slider-arrow-right.png) no-repeat;
+	position: absolute;
+	width: 21px;
+	height: 50px;
+	right: 0;
+	top: 140px;
+}
+
+.slider img{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	margin: 20px 60px 0 300px;
+}
+
+.info-ring{
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+	margin: 50px 0 0 0;
+}
+
+
+.info-ring p strong{
+	position: relative;
+	color: #646464;
+	font-size: 22px;
+	margin-bottom: 50px;
+}
+
+.info-ring strong:after{
+	content: '';
+	position: absolute;
+	background: url(images/bottom-line.png) no-repeat;
+	width: 70px;
+	height: 10px;
+	left: 0;
+	top: 35px;
+}
+
+.info-item{
+	margin: 30px 0 30px 0;
+	color: #c1c1c1; 
+}
+
+.info-ring a{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 15px;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 2px;
 }
